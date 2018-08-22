@@ -1,0 +1,9 @@
+
+a+bi
+Disp "Eq. is: X=","(~B+/-sqrt(B^^2-4AC))","/2A","From: AX^^2+BX+C=0"
+Prompt A,B,C
+If A=0:Then:Disp "A must have a","value!":Goto B:Else
+	(~B+sqrt(B^^2-4AC))/(2A)->Y
+	(~B-sqrt(B^^2-4AC))/(2A)->Z
+	Disp "X=",Y>Frac,"       and ",Z>Frac,"BY: CKI"
+	Lbl B

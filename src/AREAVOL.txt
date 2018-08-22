@@ -1,0 +1,22 @@
+Lbl 1
+Menu("AREA/VOL. OF...?","Triangle",2,"Cylinder",3,"Pyramid",4,"Sphere",5,"Cone",6,"EXIT",A
+Lbl 2
+Disp "Triangle>>>>>>>>"," AREA = ABsin(C)"," or  .5BH"," or "," sqrt(S(S-a)(S-b)","(S-c)) WHERE S=",".5(Perimeter)"
+Pause :Goto 1
+
+Lbl 3
+Disp "Cylinder>>>>>>>>"," V=piR^^2H"
+Pause :Goto 1
+
+Lbl 4
+Disp "Pyramid: 4 Sides"," V=HA"," A=Base Side"
+Pause :Goto 1
+
+Lbl 5
+Disp "Sphere>>>>>>>>>>"," A=4piR^^2"," V=(4/3)piR^^3
+Pause :Goto 1
+
+Lbl 6
+Disp "Cone>>>>>>>>>>>>"," V=(1/3)piR^^2H"
+Pause :Goto 1
+Lbl A:Disp "BY: CKI":Stop

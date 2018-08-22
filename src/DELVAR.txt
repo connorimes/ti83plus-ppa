@@ -1,0 +1,1 @@
+DelVar A:DelVar B:DelVar C:DelVar D:DelVar E:DelVar F:DelVar G:DelVar H:DelVar I:DelVar J:DelVar K:DelVar L:DelVar M:DelVar N:DelVar O:DelVar P:DelVar Q:DelVar R:DelVar S:DelVar T:DelVar U:DelVar V:DelVar W:DelVar X:DelVar Y:DelVar Z:DelVar theta:DelVar L1:DelVar L2:DelVar L3:DelVar L4:DelVar L5:DelVar L6:Clear Entries:ClrDraw:ClrHome:Output(4,5,"DELETED!"
